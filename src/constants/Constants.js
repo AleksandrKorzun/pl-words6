@@ -209,7 +209,7 @@ export const POSITIONS = {
   word:
     Screen.iphoneSEProportions || Screen.phoneProportions
       ? POSITIONS_PHONE.word
-      : [-300, -200, 0, -380],
+      : [-300, -200, 0, -220],
   board:
     Screen.iphoneSEProportions || Screen.phoneProportions
       ? POSITIONS_PHONE.board
@@ -229,11 +229,11 @@ export const SCALES = {
   word:
     Screen.iphoneSEProportions || Screen.phoneProportions
       ? SCALES_PHONE.word
-      : [0.8, 0.8, 0.8, 0.8],
+      : [0.8, 0.8, 0.5, 0.5],
   board:
     Screen.iphoneSEProportions || Screen.phoneProportions
       ? SCALES_PHONE.board
-      : [0.8, 0.8, 0.8, 0.8],
+      : [0.8, 0.8, 0.6, 0.6],
   image_bg:
     Screen.iphoneSEProportions || Screen.phoneProportions
       ? SCALES_PHONE.image_bg
